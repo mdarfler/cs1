@@ -3,9 +3,13 @@ layout: index
 published: true
 ---
 
-## Create your own online course (and keep it)
+# Welcome to "Introduction to Computer Science"
 
-Course in a Box is simple, open source tool to help you create your very own online course. It is designed to minimize the amount of time you need to spend fumbling around with technology, allowing you to focus on bringing together the resources, activities, and lessons that you want to share with the world.
+Huzzah! If you've reached the page that means you're probably taking Introduction to Computer Science at Friends' Central School during the first semester of the 2018/2019 school year. Although, perhaps you're just a curious individual who is looking to learn more about programming. In either case, welcome.
+
+##How to use this site
+
+The main intent for this website is to provide a set of learning modules that will take you through some basic programming using [p5.js](http://www.p5js.org). p5 is based on [Processing](http://www.processing.org), a Java IDE designed for artists and creative types. p5.js is a JavaScript library that makes drawing, interaction, and audio easy to do, online.
 
 By default, your course will be hosted on [Github](https://www.github.com), a popular development platform that allows for collaborative drafting, version control, and easy dissemination of your course. Best of all, hosting a course on Github is **free**!
 
@@ -24,5 +28,3 @@ At P2PU, we believe that effective learning is not going to come from the top do
 Online courses take a big step forwards in the sharing of knowledge around the world. However, your course is only ever as good as the people it reaches. To help reach new audiences with online courses, P2PU developed learning circles: face-to-face study groups for people who want to take online courses together, in local libraries or community spaces.
 
 Once you create a course, you can add it to P2PU’s learning circle [course page](http://p2pu.org/en/courses), a growing database of online courses that people are using to facilitate learning circles around the world. You can also check out [https://www.p2pu.org/en/facilitate/](https://www.p2pu.org/en/facilitate/) for information on running your own learning circles.
-
-
