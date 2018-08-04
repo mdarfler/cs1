@@ -11,7 +11,7 @@ Huzzah! If you've reached the page that means you're probably taking Introductio
 
 The main intent for this website is to provide a set of learning modules that will take you through some basic programming using [p5.js](http://www.p5js.org). p5 is based on [Processing](http://www.processing.org), a Java IDE designed for artists and creative types. p5.js is a JavaScript library that makes drawing, interaction, and audio easy to do, online.
 
-<script type="text/p5">
+<script type="text/p5" data-autoplay>
 function setup() {
   createCanvas(100, 100);
 }
