@@ -11,6 +11,16 @@ Huzzah! If you've reached the page that means you're probably taking Introductio
 
 The main intent for this website is to provide a set of learning modules that will take you through some basic programming using [p5.js](http://www.p5js.org). p5 is based on [Processing](http://www.processing.org), a Java IDE designed for artists and creative types. p5.js is a JavaScript library that makes drawing, interaction, and audio easy to do, online.
 
+<script type="text/p5">
+function setup() {
+  createCanvas(100, 100);
+}
+
+function draw() {
+  background(255, 0, 200);
+}
+</script>
+
 By default, your course will be hosted on [Github](https://www.github.com), a popular development platform that allows for collaborative drafting, version control, and easy dissemination of your course. Best of all, hosting a course on Github is **free**!
 
 So what does it look like? Recently, Creative Commons and the Open University used in Course in a Box to create [a course about Open Educational Resources](http://www.exploerercourse.org/). The Children’s Museum in Pittsburgh created [a course about designing maker spaces in libraries and museums](http://p2pu.github.io/makingandlearning/).
