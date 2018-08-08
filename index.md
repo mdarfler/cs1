@@ -14,10 +14,3 @@ The main intent for this website is to provide a set of learning modules that wi
 ## About the teacher
 
 |![]({{site.baseurl}}/img/mdarfler_small.jpg)|Here is some long and lengthy information about me and what I do, and whay I like computers and programming, etc. ect. blah blah blah |
-
-<script type="text/p5" data-autoplay data-width="350" data-preview-width="250">
-function setup() {
-  createCanvas(300, 100);
-  background(255, 0, 200);
-}
-</script>

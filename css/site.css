@@ -31,3 +31,8 @@
   font-size: 0.8em;
   text-align:left;
 }
+
+td{
+  padding: 10px;
+  vertical-align: top;
+}
