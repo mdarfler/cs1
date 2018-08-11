@@ -1,7 +1,7 @@
 ---
 title: Coloring your Sketch
 ---
-#Coloring your Sketch
+# Coloring your Sketch
 Drawing shapes on white backgrounds is all well and good, but I suppose we'll want to add a little flare into your drawings In this unit we will look at ways to use color in your p5.js sketch
 
 ## Anatomy of a Shape
@@ -21,7 +21,7 @@ Why 256? This is because computers work in [binary](https://en.wikipedia.org/wik
 
 When it comes to drawing and using colors in p5.js you will first need to define the stroke, stroke, weight, and fill before you start to draw. However, once you've defined all of those things you can draw as many shapes as you want with that set of colors. Here's a quick example:
 
-<script type="text/p5" data-autoplay>
+<script type="text/p5" data-autoplay data-width="250" data-preview-width="310" data-height="320">
 createCanvas(250, 250);
 fill(100);
 stroke(10);
@@ -40,7 +40,7 @@ And this is all well can good, but a little bit of color wouldn't hurt. In reali
 <p class="caption">https://hisour.com/rgb-color-model-24867/</p>
 By combining these colors in different proportions we can create an astonishing number of colors. How many exactly? Well, for each color--red, green, blue--there a 256 possible values from 0 to 255. Which means that there are 256 * 256 * 256 different possible color combinations. That's over **16 billion colors!** Not bad. When using colors p5.js we'll need to specify exactly the amount of each color in order to define a color. 
 
-<script type="text/p5" data-autoplay>
+<script type="text/p5" data-autoplay data-width="250" data-preview-width="310" data-height="320">
 createCanvas(250, 250);
 fill(200,0,100);
 stroke(100,200,10);
