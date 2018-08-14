@@ -1,6 +1,6 @@
 title: Introduction to Computer Science | 2018
 description: Introduction to Computer Science -- FCS Fall 2018
-modules: [00-welcome, 01-introduction]
+modules: [00-welcome, 01-introduction, 02-variables]
 signups:
 iframe_width: "600"
 p5_data_width: "350"
