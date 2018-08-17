@@ -27,8 +27,8 @@ function draw(){
 
 <script type="text/p5" data-autoplay data-width="250" data-preview-width="310" data-height="320">
 var circle = {
-  x: 150;
-  y: 125;
+  x: 150,
+  y: 125,
   d: 60
 };
 
