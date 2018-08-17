@@ -7,7 +7,7 @@ In this lesson we will take our first look at variables. Think of a variable as 
 
 ## Example
 Move your mouse over the screen. What happens?
-<iframe width="560" height="220" frameborder="0" src="http://alpha.editor.p5js.org/embed/BkbpL5e8m"></iframe>
+<iframe width="560" height="220" frameborder="0" src="https://alpha.editor.p5js.org/embed/BkbpL5e8m"></iframe>
 
 
 ## Video Explanation
