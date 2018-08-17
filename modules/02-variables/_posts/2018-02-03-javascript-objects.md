@@ -10,36 +10,38 @@ Refactoring code is a process by which code is restructured without changing the
 > By continuously improving the design of code, we make it easier and easier to work with. This is in sharp contrast to what typically happens: little refactoring and a great deal of attention paid to expediently adding new features. If you get into the hygienic habit of refactoring continuously, you'll find that it is easier to extend and maintain code.
 — Joshua Kerievsky, Refactoring to Patterns
 
-<script type="text/p5" data-autoplay data-width="250" data-preview-width="310" data-height="320">
-var x = 150;
-var y = 125;
+<script type="text/p5" data-autoplay data-width="360" data-preview-width="200" data-height="320">
+var x = 50;
+var y = 50;
 var d = 60;
 function setup(){
-createCanvas(250, 250);
+createCanvas(100, 100);
 background(150);
 }
 
 function draw(){
-  fill(0);
-  ellipse(x, y, d);
+  fill(255);
+  ellipse(x, y, d, d);
 }
 </script>
 
-<script type="text/p5" data-autoplay data-width="250" data-preview-width="310" data-height="320">
+<br>
+
+<script type="text/p5" data-autoplay data-width="360" data-preview-width="200" data-height="320">
 var circle = {
-  x: 150,
-  y: 125,
+  x: 50,
+  y: 50,
   d: 60
 };
 
 function setup(){
-createCanvas(250, 250);
+createCanvas(100, 100);
 background(150);
 }
 
 function draw(){
-  fill(0);
-  ellipse(circle.x, circle.y, circle.d);
+  fill(255);
+  ellipse(circle.x, circle.y, circle.d, circle.d);
 }
 </script>
 
