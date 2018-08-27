@@ -21,6 +21,8 @@ The first person to describe the mathematics behind Brownian motion was Thorvald
 Albert Einstein (in one of his 1905 papers) and Marian Smoluchowski (1906) brought the solution of the problem to the attention of physicists, and presented it as a way to indirectly confirm the existence of atoms and molecules. Their equations describing Brownian motion were subsequently verified by the experimental work of Jean Baptiste Perrin in 1908.
 
 ## Assignment
+
+### Brownian Motion Art
 Scientist, mathematicians, and artists have all been fascinated by Brownian motion. Using what we've learned so far create a digital wallpaper that is based on Brownian motion. Think of starting with one particle placed somewhere on the screen. Each time through `draw()` it will move, randomly. It may also change shape, color, size, or any other attribute. Does it always move the same distance every time? Without redrawing the background each frame, let the particle wander. The path it draws is what we are interested in. In order to receive full credit, you must use, JavaScript Objects, `map()`, `random()` and `randomGaussian()` in your sketch.  
 
 You may find these wallpapers inspiring.
@@ -33,4 +35,15 @@ You may find these wallpapers inspiring.
 [![](https://virtualhorde.com/MEDIA/LinuxRandom.png)](https://www.are.na/nic-schumann/random-noise)
 <p class="caption">https://www.are.na/nic-schumann/random-noise</p>
 
-submit your code to [Google Classroom]
+submit your code to [Google Classroom](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYyMTMyMjkwMzha/details)
+
+### Read and Respond.
+In addition to your sketch, consider the following quote
+> "We may regard the present state of the universe as the effect of its past and the cause of its future. An intellect which at a certain moment would know all forces that set nature in motion, and all positions of all items of which nature is composed, if this intellect were also vast enough to submit these data to analysis, it would embrace in a single formula the movements of the greatest bodies of the universe and those of the tiniest atom; for such an intellect **nothing would be uncertain** and the future just like the past would be present before its eyes."
+— Pierre Simon Laplace, A Philosophical Essay on Probabilities
+
+What Laplace is talking about here is what's know as scientific determinism—the idea that if we were able to know exactly the current state of the universe, we could predict the future, i.e. nothing is truly random. What we perceive to be random is due to our incomplete understanding of the universe.
+
+In about 250 words (~1 page), respond to the quote above. Do you agree or disagree with Laplace? What evidence do you have to support your position. Are there any assumptions that Laplace makes that are unfounded or unsupported?
+
+Submit your response to [Google Classroom](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYyMTIyMDUzMDRa/details)
