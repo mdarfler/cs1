@@ -45,6 +45,7 @@ function setup(){
 }
 
 function draw(){
+  background(255);
   if(mouseX > width/2){
     fill(255,10,100);
     noStroke();
@@ -53,8 +54,17 @@ function draw(){
 }
 </script>
 
-
-
+Try changing the expression inside of the `()` after the `if`. What happens?
 
 ## Video Explaination
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Osb_iGDdjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## Comprehension Check
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHxniZJ5szT7AZboTZmBMbOu5XFylcsr3XyGD5xZvKEpQ_gQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+## Assignment
+Create a sketch that uses conditional statements to create an ball that moves across the screen and increases in size up to a certain point. When the ball gets too big it returns to its original size. When it gets to far off the screen, it returns to the far side of the screen.
+
+<iframe width="560" height="210" frameborder="0" src="https://alpha.editor.p5js.org/embed/HJewtdQwQ"></iframe>
+
+Create a new sketch and submit a link on [Google Classroom](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYyNTYzOTYwODha/details)
