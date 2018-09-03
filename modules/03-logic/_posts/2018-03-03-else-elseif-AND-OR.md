@@ -1,7 +1,7 @@
 ---
 title: else, else if, AND, OR
 ---
-# `else`,  `elseif`, `AND`, `OR`
+# `else`,  `else if`, `AND`, `OR`
 In the last lesson we used `if` statements to create another control structure for our programs. Now, instead of just blindly doing the same thing over and over again, we can do different things each time through the draw loop based on some simple rules. In this unit we will expand what's possible.
 
 ## `else` and `elseif`
@@ -87,7 +87,7 @@ What if the logic was if I'm hungry OR I'm away from home, order takeout. Then t
 
 There is a really great more in depth explanation of truth tables [here](https://medium.com/i-math/intro-to-truth-tables-boolean-algebra-73b331dd9b94). I strongly encourage you to read through it.
 
-Going back to our bouncing ball sketch from before here's how we might think about getting the ball to move back and forth with only one if statement instead of two.
+Going back to our bouncing ball sketch from before, here's how we might think about getting the ball to move back and forth with only one if statement instead of two.
 ```
 if(circle.x > width || circle.x < 0){
   speeed *= -1;
