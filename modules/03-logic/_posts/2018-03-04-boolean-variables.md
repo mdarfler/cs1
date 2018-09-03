@@ -28,11 +28,7 @@ drawRectangle();
 We've already looked at how to write this conditional statement from before, but it required a whole bunch of relational and logic operators. While we can't get rid of these statements we can refactor the code so that at least our conditional statement is a little cleaner and easier to understand. To begin let's assume that the mouse starts outside of the rectangle and we'll create a new variable `var inside = false`. Yay! We've created a boolean variable.
 
 ## Evaluating a Boolean variable.
-As with any assignment operation first we evaluate the righthand side and then assign that value to the left hand side. This is no different with boolean variables. Let's consider creating a variable to store information about what side of the screen the mouse is on. Let's start with a variable "left" and assume that it begins as false. `var right = false;`. That code we will place at the top of the sketch before the `setup()`. Then in the draw loop we want to find out if the mouse is on the righthand side or not. If it is we want `right` to be `true`. If not, `false`. We can write this as
-```
-right = mouseX > width/2;
-```
-The computer will get the value of `mouseX` and if it's greater than 1/2 the width of the screen then `moouseX > width/2` will evaluate to true and `right` will be true.
+As with any assignment operation first we evaluate the righthand side and then assign that value to the left hand side. This is no different with boolean variables. Let's consider creating a variable to store information about what side of the screen the mouse is on. Let's start with a variable "left" and assume that it begins as false. `var right = false;`. That code we will place at the top of the sketch before the `setup()`. Then in the draw loop we want to find out if the mouse is on the righthand side or not. If it is we want `right` to be `true`. If not, `false`. We can write this as `right = mouseX > width/2;`. The computer will get the value of `mouseX` and if it's greater than 1/2 the width of the screen then `mouseX > width/2` will evaluate to true and `right` will be true.
 
 <script type="text/p5" data-width="300" data-autoplay data-preview-width="260" data-height="360">
 var right = false;
@@ -50,13 +46,11 @@ function draw(){
 }
 </script>
 
-
 ## Bang`!`
 Now that we have our boolean variable we're going to want to be able to switch its value. If we had a number and we wanted to switch its sign from positive to negative or negative to positive we multiply by -1. In code this looks like `x = x *= -1`. For boolean variables we use the `!` (bang) operator to negate the value so `!true` evaluates to '`false` and `!false` evaluates to `true`. So if you want to flip the variable `inside` from true to false we could write `inside = !inside`
 
-
 ## [rectMode()](https://p5js.org/reference/#/p5/rectMode)
-Let's keep going by introducing a new function `rectMode()`. Before, when we drew a rectangle we did so by defining the top left corner and the width and the height. `rectMode()` allows us to change the meaning of the arguments inside the `rect()` command ino rder to draw rectangles in different ways. `rectMode()` takes one argument that can be `CORNER`, `CORNERS`, `CENTER` or `RADIUS`. See the [reference](https://p5js.org/reference/#/p5/rectMode) for a full description of all of the different options, but for now we're just going to look at `CENTER`.
+Let's keep going by introducing a new function `rectMode()`. Before, when we drew a rectangle we did so by defining the top left corner and the width and the height. `rectMode()` allows us to change the meaning of the arguments inside the `rect()` command in order to draw rectangles in different ways. `rectMode()` takes one argument that can be `CORNER`, `CORNERS`, `CENTER` or `RADIUS`. See the [reference](https://p5js.org/reference/#/p5/rectMode) for a full description of all of the different options, but for now we're just going to look at `CENTER`.
 
 `rectMode(CENTER)` draws a rectangle more like the way we draw an ellipse. So now, the first two arguments define the center of the rectangle and the second two arguments remain the same, defining the width and the height.
 
@@ -86,6 +80,7 @@ mouse is inside the rectangle.
 ## Assignment
 Here is some [starter code](https://editor.p5js.org/mdarfler/sketches/BJRCmWoP7) based on the Shiffman's video. Your assignment is to refactor the code in a number of always
 - Create a JavaScript object `myrect` that contains information about the rectangles size and position.
+- Use the variable `over` to evaluate if the mouse is over the square. Use this variable in the appropriate  `if` statements instead of hardcoding the relational logic.
 - Pick a `rectMode()` other than `CENTER` to put in `setup()`.
 - Rewrite the code so that instead of hardcoded values in `draw()` you use variables from the `myrect()` object. You'll have to use dot notation in order to do so. e.g. `myrect.x`
 
