@@ -13,11 +13,8 @@ The main intent for this website is to provide a set of learning modules that wi
 
 ## About the teacher
 
-|![]({{site.baseurl}}/img/mdarfler_small.jpg)|Here is some long and lengthy information about me and what I do, and whay I like computers and programming, etc. ect. blah blah blah |
+|![]({{site.baseurl}}/img/mdarfler_small.jpg)|Here is some long and lengthy information about me and what I do, and why I like computers and programming, etc. ect. blah blah blah |
 
-<script type="text/p5" data-autoplay>
-function setup() {
-  createCanvas(100, 100);
-  background(255, 0, 200);
-}
-</script>
+
+## Syllabus
+<iframe width="760" frameborder="0" height="1200" src="https://docs.google.com/document/d/e/2PACX-1vTnNiI85SxwytLLwded3NG1CxhXm_GtoL0CUkPuUDFbeicH7Q7DRcTFUxCxuJUDv7-F05xvGqlQKJgT/pub?embedded=true"></iframe>
