@@ -9,7 +9,7 @@ So what exactly is computer science? To be clear, computer programming is **NOT*
 Computer science actually has its roots much earlier than you might expect. For a very long timeIn 1623, Wilhelm Schickard designed and constructed mechanical calculator. In 1834 Charles Babbage developed the first programmable mechanical calculator based on a punched card system derived from the Jacquard loom, and that same year, Ada Lovelace wrote what is considered to be the first computer program. In 1946 the Electronic Numerical Integrator and Computer (ENIAC) one of the first electronic general purpose computers was built at the University of Pennsylvania. And the first degree in computer science was awarded from Cambridge University in 1953.  A great visual history of computers science can be found [here](http://www.visualcapitalist.com/history-computer-science-one-infographic/).
 
 As computers have become more ubiquitous, the realms of study which are encompassed by CS also grows. Below is a quick layout of some of the fields of study. The ones that are larger are areas that we will hopefully cover in this class.
-![scope of cs]({{site.baseurl}}/img/cs-outline.png)
+![scope of cs]({{site.baseurl}}/img/CS-outline.png)
 But for now let's focus on computer programming.
 
 ## Computer Programming.
