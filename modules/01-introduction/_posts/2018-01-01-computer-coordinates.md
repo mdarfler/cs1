@@ -29,12 +29,12 @@ The other major difference when it comes to computer graphics is that the coordi
 ### Circles
 This means that if we want to draw a circle that is 100px in diameter in the middle of the screen that is 400px x 200px we would have to draw its center at _(200,100)_ which is 200px from the left side of the screen and 100px from the top of the screen.
 
-<iframe width="600" height="420" frameborder="0" src="http://alpha.editor.p5js.org/embed/Skx-qZ1Um"></iframe>
+<iframe width="600" height="420" frameborder="0" src="https://editor.p5js.org/embed/Skx-qZ1Um"></iframe>
 
 ### Lines
 If we want to draw a line we need to define two points, one at either end of the line. A horizontal line with a length of 100px might have a first point _(0,0)_ and a second point at _(100, 0)_. A vertical line with length 50 might have two points _(0,0)_ and _(0,100)_. We could also define lines that are diagonal with the points _(0,0)_ and _(100,100)_
 
-<iframe width="600" height="420" frameborder="0" src="http://alpha.editor.p5js.org/embed/r1G_BWJLX"></iframe>
+<iframe width="600" height="420" frameborder="0" src="https://editor.p5js.org/embed/r1G_BWJLX"></iframe>
 
 ## Comprehension Check
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNLSP1v9oUR3gMoEAfzbcFXqy19CErXV3yI4yxCBMEhNjqvQ/viewform?embedded=true" width="560" height="400" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
