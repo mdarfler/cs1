@@ -43,6 +43,18 @@ If we want to draw a line we need to define two points, one at either end of the
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeNLSP1v9oUR3gMoEAfzbcFXqy19CErXV3yI4yxCBMEhNjqvQ/viewform?embedded=true" width="560" height="1836" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment
+Read through these two tutorials on creating elliptical perspective on [Bill Martin's Guide to Drawing](http://guidetodrawing.com)
+- [elliptical perspective](http://guidetodrawing.com/elliptical-perspective/)
+- [Major and Minor Axes](http://guidetodrawing.com/elliptical-perspective/minor-and-major-axes/)
+
+
+![](http://guidetodrawing.com/site/assets/files/1027/gtd-190.jpg)
+<p class="caption">http://guidetodrawing.com/site/assets/files/1027/gtd-190.jpg</p>
+- To start, using ellipses and lines, try to recreate the image from Bill's tutorial on elliptical perspective 
+- Now can you change the perspective and redraw that image?
+- Next try to recreate one of the drawings from the major and minor axes tutorial.
+- Using graph paper, redraw the second and third drawing.
+
 Using only circles and lines make a picture on graph paper. Using the computer coordinate system, for each line, mark the start and end point coordinates. For each circle, mark the center point and the diameter. (I'd suggest keeping the coordinates to integers only) You must have at least 3 circles and 3 lines. One easy shape to make would be a snowman, but I'll leave that up to you.
 
 Attached is a template that already is laid out with computer coordinates. You may either print out the template and draw by hand with a ruler and a compass or you may use an online markup program such as notability or xodo. If you choose to print the template, you must turn in a picture of your work. If you do it digitally, submit a pdf or image.
