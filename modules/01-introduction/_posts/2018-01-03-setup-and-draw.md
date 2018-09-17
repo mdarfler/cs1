@@ -50,7 +50,7 @@ In general no functions calls will exist in your code that are not either in `se
 ## [Comprehension Check](https://goo.gl/forms/WqO9DYOwHqIdkNyo2)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddRGWR-4b0J1woW3ZsWoNVCfuOGZUArMaCG11EhY-uXKi7cw/viewform?embedded=true" width="560" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-##Assignment
+## Assignment
 
 - Start by creating a canvas that is 640 x 480 px
 - Next, draw a rectangle on that canvas that starts at (50, 100) and is 425 x 200 px
