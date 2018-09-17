@@ -35,12 +35,11 @@ function draw(){
 From now on, all of your sketches should have a `setup()` function and should probably have `draw()` function. A typical sketch will look something like this:
 ```
 function setup(){
-  createCanvas(width,height);
+  createCanvas(width, height);
   background(color);
 }
 
 function draw(){
-  background(0);
   //your code here.
 }
 ```
