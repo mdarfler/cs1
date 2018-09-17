@@ -25,7 +25,7 @@ function setup(){
 ## [draw()](https://p5js.org/reference/#/p5/draw)
 >Called directly after setup(), the draw() function continuously executes the lines of code contained inside its block until the program is stopped or noLoop() is called.
 
-For now, while we are making static sketches, the `draw()` function is not strictly necessary. Later on we'll create sketches that change over time, such as a bouncing ball, in which as we'll need to have a draw loop. In practice this looks very similar to the `setup()` function.
+For now, while we are making static sketches, the `draw()` function is not strictly necessary. Later on we'll create sketches that change over time, such as a bouncing ball, in which as we'll need to have a draw loop. In practice the construction of this function looks very similar to the `setup()` function.
 ```
 function draw(){
   //code goes here;
@@ -44,7 +44,7 @@ function draw(){
   //your code here.
 }
 ```
-<p class='clarification'>In general no functions calls will exist in your code that are not either in `setup()` or `draw()`</p>
+In general no functions calls will exist in your code that are not either in `setup()` or `draw()`
 
-## Comprehension Check
+## [Comprehension Check](https://goo.gl/forms/WqO9DYOwHqIdkNyo2)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSddRGWR-4b0J1woW3ZsWoNVCfuOGZUArMaCG11EhY-uXKi7cw/viewform?embedded=true" width="560" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
