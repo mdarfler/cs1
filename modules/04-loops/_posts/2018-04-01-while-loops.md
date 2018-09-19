@@ -1,5 +1,5 @@
 ---
-title: While and For Loops
+title: While Loops
 ---
 # {{page.title}}
 This lesson will look at how we can use  `repeat loops` to make our code easier to read and more efficient.
@@ -100,8 +100,8 @@ function setup(){
 
   var y = width/2;
   var d = 35;
-  var x = 20;
   var spacing = 60;
+  var x = 20;
   while(x < width){
     ellipse(x,y,d,d);
     x += spacing;
