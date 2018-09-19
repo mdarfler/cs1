@@ -108,3 +108,6 @@ function setup(){
   }
 }
 </script>
+
+## Video Explaination
+<iframe width="560" height="315" src="https://www.youtube.com/embed/cnRD9o6odjk?rel=0&amp;start=0&end=470" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
