@@ -51,7 +51,7 @@ function draw(){
 }
 </script>
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSerG_xHGIRYTUvYyWknW3El71u4oIksnKG3s8i8MZ3Fh9mzVA/viewform?embedded=true)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSerG_xHGIRYTUvYyWknW3El71u4oIksnKG3s8i8MZ3Fh9mzVA/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment

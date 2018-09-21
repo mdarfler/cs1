@@ -17,7 +17,7 @@ Once we have that space in memory assigned to the variable we can ask the comput
 ## Variables in JavaScript
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Bn_B3T_Vbxs?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSd5S-tBXSNeVS1GywAg0z8w6w8lZnOCo2_i7DkdNaIxihTR8w/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5S-tBXSNeVS1GywAg0z8w6w8lZnOCo2_i7DkdNaIxihTR8w/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment
