@@ -59,7 +59,7 @@ Try changing the expression inside of the `()` after the `if`. What happens?
 ## Video Explaination
 <iframe width="560" height="315" src="https://www.youtube.com/embed/1Osb_iGDdjk" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSeHxniZJ5szT7AZboTZmBMbOu5XFylcsr3XyGD5xZvKEpQ_gQ/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHxniZJ5szT7AZboTZmBMbOu5XFylcsr3XyGD5xZvKEpQ_gQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment

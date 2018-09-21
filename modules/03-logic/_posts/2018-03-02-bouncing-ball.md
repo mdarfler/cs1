@@ -54,7 +54,7 @@ if(x > width){
 if what you want is to have the ball change directions when it gets to the end of the canvas. Since we already have the built in variable `width`  we don't want to write the size of the canvas again. In this way, if you change your canvas size, the functionality of your program doesn't change. Furthermore, by referring back to already defined values, it makes your intentions clearer. Instead of some strange number in your code, that number now as meaning. This will become more and more important as your programs become more complex. With that in mind,
 >can you think of a way of making the ball change direction without hardcoding in a new value?
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSdgZYzasFQElhZgBcSVtfuw90TjNtdpmgwh7gE51i_k44R_0w/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgZYzasFQElhZgBcSVtfuw90TjNtdpmgwh7gE51i_k44R_0w/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment
