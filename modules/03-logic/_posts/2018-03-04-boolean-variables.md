@@ -74,7 +74,7 @@ mouse is inside the rectangle.
 ## Video Explanation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Rk-_syQluvc?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSe_tzrXXhFeaEgjGJsaE0-ykUiZ5rkCnlqHIQ4GvdwiMson3A/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSe_tzrXXhFeaEgjGJsaE0-ykUiZ5rkCnlqHIQ4GvdwiMson3A/viewform?embedded=true" width="640" height="2599" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment

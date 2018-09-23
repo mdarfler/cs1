@@ -50,7 +50,7 @@ function draw(){
 ## Video Explanation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/-e5h4IGKZRY?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
-## Comprehension Check
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLScI4jP8cM3MGF4xAKuMkDDx-jjh-hsDtFOB8oK5UMUVm_bKeg/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScI4jP8cM3MGF4xAKuMkDDx-jjh-hsDtFOB8oK5UMUVm_bKeg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment

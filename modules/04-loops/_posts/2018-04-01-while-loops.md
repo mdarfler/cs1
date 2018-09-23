@@ -111,3 +111,8 @@ function setup(){
 
 ## Video Explaination
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cnRD9o6odjk?rel=0&amp;start=0&end=470" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSeQu4RaIh52BK7-0Bz_TzPmPfvT9Cn-qj_1128U9aHf8Bv7uw/viewform)
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQu4RaIh52BK7-0Bz_TzPmPfvT9Cn-qj_1128U9aHf8Bv7uw/viewform?embedded=true" width="640" height="2304" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+## Assignment
