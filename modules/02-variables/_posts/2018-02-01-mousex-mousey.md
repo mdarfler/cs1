@@ -3,7 +3,7 @@ title: MouseX MouseY
 ---
 
 # MouseX MouseY
-In this lesson we will take our first look at variables. Think of a variable as a location in the computers' memory where you can store and retrieve information.
+In this lesson we will take our first look at variables. Think of a variable as a location in the computer's memory where you can store and retrieve information.
 
 ## Example
 Move your mouse over the screen. What happens?
