@@ -20,7 +20,7 @@ Once we have that space in memory assigned to the variable we can ask the comput
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSd5S-tBXSNeVS1GywAg0z8w6w8lZnOCo2_i7DkdNaIxihTR8w/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSd5S-tBXSNeVS1GywAg0z8w6w8lZnOCo2_i7DkdNaIxihTR8w/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-## Assignment
+## [Assignment](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYwNjA5MzIzMDZa/details)
 Living here on planet earth, objects have to obey the law of gravity. Gravity is a force that causes things to accelerate towards earth. This means that while the acceleration that an object experiences is constant, its velocity continues to increase. We could think of an objects y-velocity `velY` at time _t+1_ to be its y-velocity at time _t_ + y-acceleration `accelY` and the objects y-location at time _t+1_ to be its y-location `locY` at time _t_ + y-velocity at time _t+1_ or in other words:
 
 ```
@@ -30,9 +30,10 @@ locY = locY + velY
 
 Create a p5.js sketch that uses variables `locY, velY, accelY` to create a simple simulation of a ball falling with gravity. Follow the following steps
 1. Declare and initialize all variables.
-2. create a canvas to draw on
-3. update the position of an ellipse experiencing gravity.
+2. Create a canvas to draw on.
+3. Update the velocity of the ellipse due to gravity.
+3. Update the position of an ellipse due to its velocity.
 
-**Bonus** Can you give the ellipse an initial X and Y velocity so that it isn't just falling straight down? 10 extra points if you can create a sketch where a ball starts in the bottom left corner of the screen, touches the top-center of the screen and falls off the screen in the bottom right using only the acceleration of gravity.
+**Bonus** Can you give the ellipse an initial X and Y velocity so that it isn't just falling straight down? 2 extra points if you can create a sketch where a ball starts in the bottom left corner of the screen, touches the top-center of the screen and falls off the screen in the bottom right using only the acceleration of gravity.
 
 Submit a link to your p5.js sketch on [Google Classroom](https://classroom.google.com/c/MTU5OTI3MjEzNTZa/a/MTYwNjA5MzIzMDZa/details)

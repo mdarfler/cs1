@@ -53,7 +53,7 @@ function draw(){
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLScI4jP8cM3MGF4xAKuMkDDx-jjh-hsDtFOB8oK5UMUVm_bKeg/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScI4jP8cM3MGF4xAKuMkDDx-jjh-hsDtFOB8oK5UMUVm_bKeg/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-## Assignment
+## [Assignment](https://classroom.google.com/c/MTU5OTI3MjEzNTZa/a/MTYxMDQ1NTM4NDJa/details)
 Refactor your code from 02-02 to use JavaScript Objects. Make sure that you make a copy of your code and rename it.
 
 Submit a link to your code on [Google Classroom](https://classroom.google.com/c/MTU5OTI3MjEzNTZa/a/MTYxMDQ1NTM4NDJa/details).
