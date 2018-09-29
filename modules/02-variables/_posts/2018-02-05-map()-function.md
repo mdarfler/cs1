@@ -1,8 +1,8 @@
 ---
 title: map() function
 ---
+# map() function
 
-# {{post.title}}
 In the next two lessons we will look at two useful functions `map()` and `random()` that will expand what we can do with our sketches.
 
 ## [map()](https://p5js.org/reference/#/p5/map)
