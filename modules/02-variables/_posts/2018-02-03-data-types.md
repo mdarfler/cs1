@@ -15,6 +15,7 @@ You've probably heard the term "binary" before in relation to computers. What th
 
 ## Video Explanation
 This video talks about how data types are used in writing code for an Arduino, which is a small micro controller. We'll look at what this is later but for now this is a good Explanation
-<iframe width="600" height="400" src="https://www.youtube.com/embed/xmZXWMEltEc?end=239.5" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/xmZXWMEltEc?end=239" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## CC Data Types
+Insert CC
