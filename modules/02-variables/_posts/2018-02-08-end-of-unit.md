@@ -20,6 +20,8 @@ The first person to describe the mathematics behind Brownian motion was Thorvald
 
 Albert Einstein (in one of his 1905 papers) and Marian Smoluchowski (1906) brought the solution of the problem to the attention of physicists, and presented it as a way to indirectly confirm the existence of atoms and molecules. Their equations describing Brownian motion were subsequently verified by the experimental work of Jean Baptiste Perrin in 1908.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/FAdxd2Iv-UA?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+
 ## Assignment
 
 ### Brownian Motion Art
