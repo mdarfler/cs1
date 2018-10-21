@@ -10,10 +10,10 @@ When we talk about making decisions in the computer it is usually in terms of ev
 ```
 if this, then that.
 ```
-That is, if `this` is true, then do `that`. We can expand this to also say, if `this` is false (not true) then do `that`
+That is, if `this` is true, then do `that`. We can expand this to also say, if `this` is false (not true) then don't `that`
 
 ## Relational Operator
-So what sort of questions can we ask of the computer when making decisions? Well firstly, these questions must be demonstrably true or false. Not "kinda" true or "kinda" false. More like true in the sense that 2 + 2 = 4 is true. Which brings us to our first relational operator `=`, but let's put that aside for just a moment and just answer the question: "What is a relational operator?"
+So what sort of questions can we ask of the computer when making decisions? Well firstly, these questions must be demonstrably true or false. Not "kinda" true or "kinda" false. More like true in the sense that 2 + 2 = 4 is true. Which brings us to our first relational operator `equality`, but let's put that aside for just a moment and just answer the question: "What is a relational operator?"
 
 A relational operator tests the relationship between two things in your program and returns either `true` or `false`. e.g. 5 > 4 is true, while 5 > 6 is false. Let's take a look at all of the logical operators.
 
@@ -25,7 +25,7 @@ A relational operator tests the relationship between two things in your program 
 |less than or equal to|>=|
 |greater than or equal to|>=|
 
-These probably all make a fair amount of sense except maybe the first two dealing with equalities. You might wonder, "Why do I have to use a double equals sign? That seems silly." And you're not wrong, but remember that we already saw `=` being used as an _assignment operator_. When we declare a variable we use `=` to assign a value to the variable. Computers being what they are can't figure out when you want `=` to be an assignment operator and when its a relational operator, so we have to come up with a new symbol, hence the `==` (Spoiler, later on you very well might see `===` used. What's that mean?)
+These probably all make a fair amount of sense except maybe the first two dealing with equalities. You might wonder, "Why do I have to use a double equals sign? That seems silly." You know what's even sillier? But remember that we already saw `=` being used as an _assignment operator_. When we declare a variable we use `=` to assign a value to the variable. Computers, being what they are, can't figure out when you want `=` to be an assignment operator and when it's a relational operator, so we have to come up with a new symbol, hence the `==` (Spoiler, later on you very well might see `===` used. What's that mean?)
 
 Next on the list is the _not equal_ operator. I'm sure some of you know how to write the ≠ (not equal) symbol on the computer, but not everyone does, and who wants to go hunting around every time you want to ask if two things are not the same. So, instead the ! (prn. "bang") is used. So, then why not `!==`? Great question.
 
@@ -38,7 +38,7 @@ if(this statement is true){   //then <-That is a comment
 ```
 Conversely if the statement inside the `()` is false, then don't do `that`. Let's take a look at it in code.
 
-<script type="text/p5" data-autoplay data-width="300" data-preview-width="260" data-height="200">
+<script type="text/p5" data-autoplay data-width="300" data-preview-width="260" data-height="600">
 function setup(){
   createCanvas(200, 200);
   background(255);
