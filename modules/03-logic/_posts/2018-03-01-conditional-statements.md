@@ -2,20 +2,28 @@
 title: Conditional Statements
 ---
 # {{page.title}}
-Up to this point we have had to be extremely specific with the direction that our progrmas can take. We start in setup and then proceed to the draw loop which executes the code inside again, and again, and again without variation. But what if we wanted to have our sketch to behave differently based on different conditions. Well you're in luck!
+Up to this point we have had to be extremely specific with the direction that our programs can take. We start in setup and then proceed to the draw loop which executes the code inside again, and again, and again without variation. But what if we wanted to have our sketch to behave differently based on different conditions. Well you're in luck!
 
 ## Conditional logic
 
-When we talk about making decisions in the computer it is usually in terms of evaluating conditional statements that have the form:
+When we talk about making decisions in the computer it is usually in terms of evaluating boolean expressions that have the form:
 ```
 if this, then that.
 ```
-That is, if `this` is true, then do `that`. We can expand this to also say, if `this` is false (not true) then don't `that`
+That is, if `this`(a boolean expression) is true, then do `that`. We can expand this to also say, if `this` is false (not true) then don't `that`
+
+## Boolean Expression
+What then is a Boolean Expression? A boolean expression is a statement that is either `true` or `false` examples include:
+- "It is raining."
+- "The world record for largest rubber band ball is 5,495 lbs."
+- "I like cats."
+All of these statements are either true or false. Examples of something that is not a boolean expression:
+- "What color is the sky?"
+- "Why are there so few unicorns left?"
+- "How do you fix a leaky faucet?"
 
 ## Relational Operator
-So what sort of questions can we ask of the computer when making decisions? Well firstly, these questions must be demonstrably true or false. Not "kinda" true or "kinda" false. More like true in the sense that 2 + 2 = 4 is true. Which brings us to our first relational operator `equality`, but let's put that aside for just a moment and just answer the question: "What is a relational operator?"
-
-A relational operator tests the relationship between two things in your program and returns either `true` or `false`. e.g. 5 > 4 is true, while 5 > 6 is false. Let's take a look at all of the logical operators.
+There are different ways of constructing boolean expressions, but one of the easiest ways of doing so is by using a relational operator. A relational operator tests the relationship between two things in your program and returns either `true` or `false`. e.g. 5 > 4 is `true`, while 5 > 6 is `false`. Let's take a look at some more relational operators.
 
 |**Operator**|**symbol**|
 |equal to|==|
@@ -25,7 +33,7 @@ A relational operator tests the relationship between two things in your program 
 |less than or equal to|>=|
 |greater than or equal to|>=|
 
-These probably all make a fair amount of sense except maybe the first two dealing with equalities. You might wonder, "Why do I have to use a double equals sign? That seems silly." You know what's even sillier? But remember that we already saw `=` being used as an _assignment operator_. When we declare a variable we use `=` to assign a value to the variable. Computers, being what they are, can't figure out when you want `=` to be an assignment operator and when it's a relational operator, so we have to come up with a new symbol, hence the `==` (Spoiler, later on you very well might see `===` used. What's that mean?)
+These probably all make a fair amount of sense except maybe the first two. You might wonder, "Why do I have to use a double equals sign? That seems silly." And you're not wrong, but remember that we already saw `=` being used as an _assignment operator_. When we declare a variable we use `=` to assign a value to the variable. Computers, being what they are, can't figure out when you want `=` to be an assignment operator and when it's a relational operator, so we have to come up with a new symbol, hence the `==` (Spoiler, later on you very well might see `===` used. What's that mean?)
 
 Next on the list is the _not equal_ operator. I'm sure some of you know how to write the ≠ (not equal) symbol on the computer, but not everyone does, and who wants to go hunting around every time you want to ask if two things are not the same. So, instead the ! (prn. "bang") is used. So, then why not `!==`? Great question.
 
