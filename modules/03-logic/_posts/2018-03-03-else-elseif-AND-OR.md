@@ -16,23 +16,29 @@ but what if "this" is FALSE? In this case we'll need to expand our sentence to i
 in code the key word is `else`
 ```
 if(this is true){
-  do this;
+  //do this;
 } else {
-  do this;
+  //do this;
 }
 ```
-Let's say we wanted to create a sketch that draws a blue background with a yellow square when the mouse is on the left half of the screen and a red background with a green circle when it's on the right half. What would that code look like? Below is some starter code. See if you can fill in if/else statement to make the sketch work as described.
+Let's say we wanted to create a sketch that draws a blue background with a yellow square when the mouse is on the left half of the screen and a red background with a cyan circle when it's on the right half. What would that code look like? Below is some starter code. See if you can fill in if/else statement to make the sketch work as described.
 
 <script type="text/p5" data-width="300" data-preview-width="260" data-height="360">
 function setup(){
   createCanvas(200, 200);
+  rectMode(CENTER);
+  noStroke();
 }
 
 function draw(){
   if(       ){
-
+    background(0, 0, 255);
+    fill(255,255,0);
+    rect(width/2, height/2, 60, 60);
   } else {
-
+    background(255, 0, 0);
+    fill(0,255,255);
+    ellipse(width/2, height/2, 60, 60);
   }
 }
 </script>
@@ -53,12 +59,14 @@ if(this is true){
   do this;
 }
 ```
+It is good practice to always end with a plain `else` in order to capture any unforeseen cases that might not have been planned for.
+
 ## Video Explanation.
 <iframe width="560" height="315" src="https://www.youtube.com/embed/r2S7j54I68c?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## `AND` and `OR`
 Let's keep going. Let's say we want to create an if statement that will only run if "this" and "that" are true.
->IF it's cold  AND I need to go outside, THEN I should put on a coat.
+>IF it's cold AND I need to go outside, THEN I should put on a coat.
 
 What about a conditional statement that would run if either "this" or "that" were true?
 >IF it's snowing OR it's sunny THEN I'm happy
@@ -67,7 +75,7 @@ This `AND` and `OR` are what are referred to as a logic operators. In programmin
 
 ### Truth Tables
 A truth table is a way of evaluating all possible outcomes of a logical operation. Let's create a scenario in which I want to decide if I should get takeout. I only order take out when I'm both hungry and not at home. So we might say:
->IF i'm hungry AND I'm not at home, THEN order takeout
+>IF I'm hungry AND I'm not at home, THEN order takeout
 
 But let's examine all of the possibilities. Each statement can either be TRUE or FALSE and there are a total of two statements which means that there are a total of four different combinations of TRUE and FALSE. For each of these four combinations we can evaluate whether or not to buy food
 
