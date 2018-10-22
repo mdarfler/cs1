@@ -52,11 +52,11 @@ What if we wanted to draw a blue background with a yellow square when the mouse 
 In this case we can follow an `else` with another `if` statement which we can follow with another `else` and another `if` and so on. However, it is good practice to always end with an `else` without another `if` so as to catch all other conditions that have not been specifically addressed. What the video for a more thorough explanation.
 ```
 if(this is true){
-  do this;
+  //do this;
 } else if(this is true){
-  do this;
+  //do this;
 } else {
-  do this;
+  //do this;
 }
 ```
 It is good practice to always end with a plain `else` in order to capture any unforeseen cases that might not have been planned for.
