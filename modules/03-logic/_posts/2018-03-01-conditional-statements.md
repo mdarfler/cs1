@@ -17,6 +17,7 @@ What then is a Boolean Expression? A boolean expression is a statement that is e
 - "It is raining."
 - "The world record for largest rubber band ball is 5,495 lbs."
 - "I like cats."
+
 All of these statements are either true or false. Examples of something that is not a boolean expression:
 - "What color is the sky?"
 - "Why are there so few unicorns left?"
@@ -40,13 +41,13 @@ Next on the list is the _not equal_ operator. I'm sure some of you know how to w
 ## The `if` statement
 Now the question becomes, "how do we put this into practice?" And the answer is the if statement. If we go back to that original formulation `if this, then that` we can expand this into some pseudocode.
 ```
-if(this statement is true){   //then <-That is a comment
+if(this boolean expression is true){   //then <-That is a comment
   doThis();
 }
 ```
-Conversely if the statement inside the `()` is false, then don't do `that`. Let's take a look at it in code.
+Conversely if the boolean expression inside the `()` is false, then don't do `that`. Let's take a look at it in code.
 
-<script type="text/p5" data-autoplay data-width="300" data-preview-width="260" data-height="600">
+<script type="text/p5" data-autoplay data-width="300" data-preview-width="260" data-height="400">
 function setup(){
   createCanvas(200, 200);
   background(255);

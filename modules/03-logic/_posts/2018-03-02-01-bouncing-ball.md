@@ -15,7 +15,7 @@ Let's say we want to imagine that the canvas that we're drawing on is a box with
 <iframe width="560" height="315" src="https://www.youtube.com/embed/LO3Awjn_gyU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 What Shiffman has shown us here should look something like this:
-<iframe width="560" height="210" frameborder="0" src="https://alpha.editor.p5js.org/embed/HJZbL6Ewm"></iframe>
+<iframe width="560" height="210" frameborder="0" src="https://editor.p5js.org/mdarfler/embed/HJZbL6Ewm"></iframe>
 
 ## Augmented Assignments
 Let's take Shiffman's code a little further. Towards the end of the video he writes out the line
