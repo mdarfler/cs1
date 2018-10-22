@@ -16,6 +16,40 @@ Let's say we want to imagine that the canvas that we're drawing on is a box with
 
 What Shiffman has shown us here should look something like this:
 <iframe width="560" height="210" frameborder="0" src="https://editor.p5js.org/mdarfler/embed/HJZbL6Ewm"></iframe>
+```
+let ball;
+
+//initialize sketch and ball object
+function setup() {
+	createCanvas(560, 200);
+	background(255);
+	ball = {
+		x: 30,
+		d: 40,
+		xvel: 3
+	}
+}
+
+function draw() {
+	background(220);
+	noStroke();
+
+  //draw ball
+  fill(255, 10, 100);
+	ellipse(ball.x, height / 2, ball.d, ball.d);
+
+  //bounce ball
+  if (ball.x > width) {
+		ball.xvel = -3;
+	}
+	if (ball.x < 0) {
+		ball.xvel = 3;
+	}
+
+  //move ball
+	ball.x = ball.x + ball.xvel;
+}
+```
 
 ## Augmented Assignments
 Let's take Shiffman's code a little further. Towards the end of the video he writes out the line
@@ -57,5 +91,8 @@ if what you want is to have the ball change directions when it gets to the end o
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSdgZYzasFQElhZgBcSVtfuw90TjNtdpmgwh7gE51i_k44R_0w/viewform)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSdgZYzasFQElhZgBcSVtfuw90TjNtdpmgwh7gE51i_k44R_0w/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-## Assignment
-Using what you learned, create a sketch that simulates a ball bouncing around the walls of the canvas. Your sketch must take into account the possibility for the ball to be able to bounce off of any of the four walls. **BONUS:** Can you incorporate gravity into the sketch. Create a new sketch and submit the link on [Google Classroom](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYyODYyNTAwNzVa/details).
+## [Assignment](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYyODYyNTAwNzVa/details)
+<iframe frameborder="0" width="560" height="320" src="https://editor.p5js.org/mdarfler/embed/HJoC8s9o7"></iframe>
+Using what you learned, create a sketch that simulates a ball bouncing around the walls of the canvas. Your sketch must take into account the possibility for the ball to be able to bounce off of any of the four walls. **BONUS:** Can you incorporate gravity into the sketch? How do you insure that the ball bounces when the edge of the ball hits the wall, and not the center?
+
+Create a new sketch and submit the link on [Google Classroom](https://classroom.google.com/u/0/c/MTU5OTI3MjEzNTZa/a/MTYyODYyNTAwNzVa/details).
