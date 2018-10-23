@@ -1,7 +1,7 @@
 var circle;
 
 function setup() {
-	createCanvas(300, 400);
+	createCanvas(600, 400);
 	circle = {
 		x: width / 2,
 		y: height / 2,
