@@ -31,7 +31,7 @@ There are different ways of constructing boolean expressions, but one of the eas
 |not equal to|!=|
 |less than|<|
 |greater than|>|
-|less than or equal to|>=|
+|less than or equal to|<=|
 |greater than or equal to|>=|
 
 These probably all make a fair amount of sense except maybe the first two. You might wonder, "Why do I have to use a double equals sign? That seems silly." And you're not wrong, but remember that we already saw `=` being used as an _assignment operator_. When we declare a variable we use `=` to assign a value to the variable. Computers, being what they are, can't figure out when you want `=` to be an assignment operator and when it's a relational operator, so we have to come up with a new symbol, hence the `==` (Spoiler, later on you very well might see `===` used. What's that mean?)
@@ -72,7 +72,7 @@ Try changing the expression inside of the `()` after the `if`. What happens?
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeHxniZJ5szT7AZboTZmBMbOu5XFylcsr3XyGD5xZvKEpQ_gQ/viewform?embedded=true" width="700" height="520" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment
-Create a sketch that uses conditional statements to create an ball that moves across the screen and increases in size up to a certain point. When the ball gets too big it returns to its original size. When it gets to far off the screen, it returns to the far side of the screen.
+Create a sketch that uses conditional statements to create an ball that moves across the screen and increases in size up to a certain point. When the ball gets too big it returns to its original size. When it gets too far off the screen, it returns to the far side of the screen.
 
 <iframe width="560" height="210" frameborder="0" src="https://alpha.editor.p5js.org/embed/HJewtdQwQ"></iframe>
 
