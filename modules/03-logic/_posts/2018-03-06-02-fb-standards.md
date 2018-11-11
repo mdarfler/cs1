@@ -70,8 +70,8 @@ I'd also like to make note of the term "newsworthiness." How is this defined? Le
 
 There are 2 more sections in the community standard on suicide and self-injury. While I won't go through each of these sections in detail the process is the same.
 
-## Assignment
-Create a new Google Doc for this Assignment
+## [Assignment](https://classroom.google.com/u/1/c/MTU5OTI3MjEzNTZa/a/MjYyNDM1NjMwNzNa/details)
+Create a [new Google Doc](https://docs.google.com/document/d/1Yw7b5AZBsyspFYgOgSHaUDCZ8Rbs2o_O3hisWyanhOQ/copy) for this Assignment
 
 Choose one of the standards from [Part 1 - Violence and Criminal Behavior](https://www.facebook.com/communitystandards/violence_criminal_behavior)
 1. Credible Violence
