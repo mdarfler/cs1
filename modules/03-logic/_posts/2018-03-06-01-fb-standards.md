@@ -1,8 +1,8 @@
 ---
-title: End of Unit
+title: FB Community Standards - 01
 note: Do something about facebook policy. Make decisions about hate speech with conditional logic.
 ---
-# {{page.title}} - Defining Hate Speech
+# {{page.title}} - Facebook Community Standards
 In April of 2018, Facebook released its internal [Community Standards](https://www.facebook.com/communitystandards/) with the goal to "encourage expression and create a safe environment." The Standards are based on the policies of Safety, Voice, and Equality and outline 6 broad areas of objectionable content with 23 subcategories and numerous sub-sub categories. As is befitting of a tech company, the "Standards apply around the world to all types of content. They’re designed to be comprehensive."
 
 ## Setting the Stage.
@@ -18,19 +18,3 @@ Answer the following question:
 -
 
 <iframe src="https://www.npr.org/player/embed/605107093/605176194" width="100%" height="290" frameborder="0" scrolling="no" title="NPR embedded audio player"></iframe>
-
-<embed src="https://poseidon01.ssrn.com/delivery.php?ID=824100098007120010103031076016006090038051063013063017078065110109100085112123080065039020017097126100053083023076019065069077045032091044031104085024126113031119021002039027019123089064095003121127071127074111102127030094072079000122098095021093110&EXT=pdf" type="application/pdf" width="100%" height="800px" />
-
-```
-if (content is about another private individual && reflects(claims about sexual activity ||
-		high - severity physical descriptions || (Ranking individuals on physical appearance || personality) ||
-		threats of non - consensual sexual touching ||
-		Sexualized text targeting another individuals ||
-		An individual in a context that is intended to degrade ||
-		Physical bullying where the context further degrades the individuals ||
-		Comparisons to animals that are culturally perceived as(intellectually || physically inferior) to an inanimate object)) {
-	remove();
-} else {
-	keep();
-}
-```
