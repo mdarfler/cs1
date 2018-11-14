@@ -12,7 +12,7 @@ As a group, please read the article [Techno-Fundamentalism Can’t Save You, Mar
 Answer the following questions. Please use complete sentences and adhere to the conventions of standard English.
 
 - Define the term **Artificial Intelligence**
-- Define the term **Techno-fundamentalism**
+- Define the term **Techno-Fundamentalism**
 - What are the two hurdles that AI purports to side step when compared to human content moderation?
 - According to the article, in what ways does the promise of AI moderation break down?
 - At the end of the article, the author references the Canadian philosopher Marshal McLuhan and his idea that "technology is an extension of ourselves." What does this mean for creators and users of new technology?
