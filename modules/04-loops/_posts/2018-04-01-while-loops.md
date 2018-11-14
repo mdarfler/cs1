@@ -7,7 +7,7 @@ This lesson will look at how we can use  `repeat loops` to make our code easier 
 ## What is a Loop?
 In reality, we've already seen a loop. Do you remember that the `draw()` function is a loop? All of the code that's inside of the draw loop is run repeatedly forever and ever. But what if we want a little more control of the loop. Consider the following image:
 
-<iframe width="600 height="280" frameborder="0" src="https://editor.p5js.org/embed/Bk4dOxgt7"></iframe>
+<iframe width="600" height="280" frameborder="0" src="https://editor.p5js.org/embed/Bk4dOxgt7"></iframe>
 
 What we have is a series of evenly spaced circles on the screen. I we wanted to recreate this image for ourselves, we may be tempted to write out the positions of all of the ellipses like this.
 ```
