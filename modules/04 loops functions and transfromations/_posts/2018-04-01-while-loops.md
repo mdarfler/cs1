@@ -113,6 +113,12 @@ function setup(){
 <iframe width="560" height="315" src="https://www.youtube.com/embed/cnRD9o6odjk?rel=0&amp;start=0&end=470" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
 
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSeQu4RaIh52BK7-0Bz_TzPmPfvT9Cn-qj_1128U9aHf8Bv7uw/viewform)
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQu4RaIh52BK7-0Bz_TzPmPfvT9Cn-qj_1128U9aHf8Bv7uw/viewform?embedded=true" width="640" height="2304" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeQu4RaIh52BK7-0Bz_TzPmPfvT9Cn-qj_1128U9aHf8Bv7uw/viewform?embedded=true" width="640" height="2000" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-## Assignment
+## [Assignment](https://classroom.google.com/u/1/c/MTU5OTI3MjEzNTZa/a/MjY0ODA4NzU0MzVa/details)
+Write a sketch that creates two opposing diagonals of circles on the canvas such that they make an “X” with each diagonal sharing a central circle.
+
+**Bonus +1** use only one while loop <br>
+**Bonus +1** use a rectangular canvas
+
+![]({{site.baseurl}}/img/04-01-assignment-answer.png)
