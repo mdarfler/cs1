@@ -59,15 +59,15 @@ function setup(){
   line(0,0,width/2,height/2);
   ellipse(0,0,40,40);
   translate(width/2,height/2);
-  ellipse(0,0.40,40);
+  ellipse(0,0,40,40);
 }
 </script>
 
-## Putting it all together
+### Translate and Rotate
 
 Let's go back to the sketch at the top of the page with the rotating square. If we want to write a sketch that does the same thing we'll need to set up both a new origin and an angle of rotation.
 
-<script type="text/p5" data-autoplay data-width="260" data-preview-width="300" data-height="300">
+<script type="text/p5" data-autoplay data-width="360" data-preview-width="300" data-height="350">
 function setup() {
   createCanvas(260, 260);
 	rectMode(CENTER); //Draws rectangles more like ellipses
@@ -83,6 +83,40 @@ function draw() {
 
 </script>
 
+## [push()](https://p5js.org/reference/#/p5/push) [pop()](https://p5js.org/reference/#/p5/pop)
+
+The `push()` function saves the current drawing style settings and transformations, while `pop()` restores these settings. Note that these functions are always used together. They allow you to change the style and transformation settings and later return to what you had. When a new state is started with `push()`, it builds on the current style and transform information. The `push()` and `pop()` functions can be embedded to provide more control.
+
+### Putting it all together
+What if we wanted to have two object rotating on the screen at different rates? Since the  `translate()` and `rotate()` functions are cumulative, we could try to make a transformation for one object and then make another transformation relative the first, but that seems like an awful lot of math. It might just be easier to make them operate independently.
+
+<script type="text/p5" data-autoplay data-width="360" data-preview-width="300" data-height="600">
+function setup() {
+	createCanvas(260, 260);
+	rectMode(CENTER);
+	angleMode(DEGREES);
+
+}
+
+function draw() {
+	background(200);
+	fill(255,200);
+	noStroke();
+
+	push();
+	translate(width / 2, height / 2);
+	rotate(frameCount * 2);
+	rect(0, 0, 100, 100);
+	pop();
+
+	push();
+	translate(width / 4, height / 2);
+	rotate(-frameCount * 3);
+	rect(width / 8, height / 8, 40, 40);
+	pop();
+}
+
+</script>
 
 ## Video Explanation
-<iframe width="560" height="315" src="https://www.youtube.com/embed/o9sgjuh-CBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+<iframe width="600" height="400" src="https://www.youtube.com/embed/o9sgjuh-CBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
