@@ -1,5 +1,6 @@
 ---
 title: Nested Loops
+published: false
 ---
 # {{page.title}}
 In the previous lesson we looked at using a for loop to increment one variable. Now we'll look at how to increment multiple variables using nested loops.
