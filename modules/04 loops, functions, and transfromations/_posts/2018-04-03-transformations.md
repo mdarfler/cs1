@@ -120,3 +120,22 @@ function draw() {
 
 ## Video Explanation
 <iframe width="600" height="400" src="https://www.youtube.com/embed/o9sgjuh-CBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSfmuni30Edd6lh_THso86nQuFR0h-yKru-RNrBQi8zClHnlOA/viewform?usp=sf_link)
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmuni30Edd6lh_THso86nQuFR0h-yKru-RNrBQi8zClHnlOA/viewform?embedded=true" width="640" height="2249" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
+
+## [Assignment](https://classroom.google.com/u/1/c/MTU5OTI3MjEzNTZa/a/MjY0ODA4ODI5MzBa/details)
+Create a sketch that mimics that repeating pattern of the camellia flower.
+
+[![](https://cdn.webvanta.com/000000/51/74/slider_detail/uploads/plant_family/1480439658-3c3b97dd76fcdaef7/57142905_m.jpg)](https://www.gardenia.net/plant-variety/Camellias-Japonica)
+<p class="caption"><a href="https://www.gardenia.net/plant-variety/Camellias-Japonica">www.gardenia.net/plant-variety/Camellias-Japonica</a></p>
+
+In order to do so you will need to consider:
+- how to approximate the shape of the petal
+- how the petal rotates around the center
+- how the petal changes as it rotates
+- the order in which the petals are drawn
+- when to stop drawing
+
+Here is an example of what your sketch might look like
+<iframe width="600" height="410" frameborder="0" src="https://editor.p5js.org/mdarfler/embed/HJ0b7ArR7"></iframe>
