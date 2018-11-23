@@ -1,5 +1,5 @@
 ---
-title: Translate and Rotate
+title: 'Translate, Rotate, and push/pop'
 ---
 # {{page.title}}
 
