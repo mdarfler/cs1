@@ -52,7 +52,7 @@ Transformations are cumulative and apply to everything that happens after and su
 ### Translate in use
 If we want to change the origin of drawing, then we need to tell p5.js where to go. Using the `translate(x,y)` function we can specify an _(x,y)_ location on the canvas. Note: that when doing so, you'll have to adjust how you draw shapes. In the example below, we start by drawing an ellipse at _(0,0)_ and then translating to the center of the canvas. These coordinates are now the _(0,0)_ for drawing. when we draw another ellipse at _(0,0)_ the ellipse is now at the center of the screen. If we wanted to draw another cirlce back at the old _(0,0)_ we would need to write <br> `ellipse(-width/2,-height/2,40,40)`
 
-<script type="text/p5" data-autoplay data-width="260" data-preview-width="300" data-height="300">
+<script type="text/p5" data-autoplay data-width="260" data-preview-width="300" data-height="360">
 function setup(){
   createCanvas(260,260);
   background(220);
