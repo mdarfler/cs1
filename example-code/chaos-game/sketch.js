@@ -3,14 +3,14 @@ let points;
 let previous;
 
 function setup() {
-  createCanvas(windowHeight, windowHeight);
+  createCanvas(windowWidth, windowHeight);
   points = [];
   const n = 5;
-
+	let minDim = min(width,height)
   for (let i = 0; i < n; i++) {
     let angle = i * TWO_PI / n;
     let v = p5.Vector.fromAngle(angle);
-    v.mult(width / 2 - 10);
+    v.mult(minDim / 2 - 10);
     v.add(width / 2, height / 2);
     points.push(v);
   }
