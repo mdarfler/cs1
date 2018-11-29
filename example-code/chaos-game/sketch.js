@@ -5,7 +5,7 @@ let previous;
 function setup() {
   createCanvas(windowWidth, windowHeight);
   points = [];
-  const n = 5;
+  const n = 3;
 	let minDim = min(width,height)
   for (let i = 0; i < n; i++) {
     let angle = i * TWO_PI / n;
@@ -28,15 +28,15 @@ function reset() {
 }
 
 function draw() {
-  for (let i = 0; i < 500; i++) {
-    strokeWeight(1);
+  //for (let i = 0; i < 500-; i++) {
+    strokeWeight(4);
     stroke(255, 0, 200, 200,200);
     let next = random(points);
-    if (next != previous) {
+//    if (next != previous) {
       current.x = lerp(current.x, next.x, 0.5);
       current.y = lerp(current.y, next.y, 0.5);
       point(current.x, current.y);
-    }
+//    }
 		previous = next;
-  }
+  //}
 }
