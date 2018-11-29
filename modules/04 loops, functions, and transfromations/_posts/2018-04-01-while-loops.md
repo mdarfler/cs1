@@ -9,7 +9,7 @@ In reality, we've already seen a loop. Do you remember that the `draw()` functio
 
 <iframe width="600" height="280" frameborder="0" src="https://editor.p5js.org/embed/Bk4dOxgt7"></iframe>
 
-What we have is a series of evenly spaced circles on the screen. I we wanted to recreate this image for ourselves, we may be tempted to write out the positions of all of the ellipses like this.
+What we have is a series of evenly spaced circles on the screen. If we wanted to recreate this image for ourselves, we may be tempted to write out the positions of all of the ellipses like this.
 ```
 function setup(){
   createCanvas(260,260);
