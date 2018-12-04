@@ -39,7 +39,8 @@ function draw() {
 </script>
 
 ## Video Explanation
-<iframe width="600" height="400" src="https://www.youtube.com/embed/o9sgjuh-CBM" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+## Video Explanation
+<iframe width="560" height="315" src="https://www.youtube.com/embed/o9sgjuh-CBM?start=1025" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
 
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSfmuni30Edd6lh_THso86nQuFR0h-yKru-RNrBQi8zClHnlOA/viewform?usp=sf_link)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmuni30Edd6lh_THso86nQuFR0h-yKru-RNrBQi8zClHnlOA/viewform?embedded=true" width="640" height="2249" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
