@@ -45,7 +45,26 @@ function draw() {
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSfmuni30Edd6lh_THso86nQuFR0h-yKru-RNrBQi8zClHnlOA/viewform?usp=sf_link)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSfmuni30Edd6lh_THso86nQuFR0h-yKru-RNrBQi8zClHnlOA/viewform?embedded=true" width="640" height="2249" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
-## [Assignment](https://classroom.google.com/u/1/c/MTU5OTI3MjEzNTZa/a/MjY0ODA4ODI5MzBa/details)
+## [Assignment](https://classroom.google.com/c/MTU5OTI3MjEzNTZa/a/MTU1MTkwMTYyOTNa/details)
+
+In Groups: Create a watch face that can accurately display time in digital and analog, i.e. with hour, minute, and second hands.
+
+Your code must include:
+- All header information
+- Comments
+- A clock face with analog hands for seconds, minutes, and hours
+- A digital readout of the time.
+- **BONUS** Display ticks around the outside of the watch face (2pts)
+- **BONUS** Creativity and style 1 - 5 extra points. Try researching existing watch faces and creating a reproduction of what you find.
+
+In order to get the current hour, minute, and second based on your computer's clock use the following:
+- hour();
+- minute();
+- second();
+
+<iframe width = '600' height = '400' frameborder="0" src="https://editor.p5js.org/mdarfler/embed/HkmIlgPk4"></iframe>
+
+<!-- ## [Assignment](https://classroom.google.com/u/1/c/MTU5OTI3MjEzNTZa/a/MjY0ODA4ODI5MzBa/details)
 Create a sketch that mimics that repeating pattern of the camellia flower.
 
 [![](https://cdn.webvanta.com/000000/51/74/slider_detail/uploads/plant_family/1480439658-3c3b97dd76fcdaef7/57142905_m.jpg)](https://www.gardenia.net/plant-variety/Camellias-Japonica)
@@ -59,4 +78,4 @@ In order to do so you will need to consider:
 - when to stop drawing
 
 Here is an example of what your sketch might look like
-<iframe width="600" height="410" frameborder="0" src="https://editor.p5js.org/mdarfler/embed/HJ0b7ArR7"></iframe>
+<iframe width="600" height="410" frameborder="0" src="https://editor.p5js.org/mdarfler/embed/HJ0b7ArR7"></iframe> -->
