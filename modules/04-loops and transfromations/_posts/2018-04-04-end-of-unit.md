@@ -1,5 +1,5 @@
 ---
-title: Putting it Together
+title: End of Unit
 ---
 
 # Putting it all together
