@@ -22,18 +22,18 @@ Factorials are a mathematic concept that calculates the product of all integers 
 
 If we wanted to solve this problem using iteration we could use a `for` loop like this:
 
-```
-let total = 0;
-for(let i = 1; i <= 5; i++){
-  total = total * i
-}
-console.log(total);
-}
-```
-<script type="text/p5" data-autoplay data-width="600" data-preview-width="0" data-height="400">
-let total = 0;
-for(let i = 1; i <= 5; i++){
-  total = total * i
-}
-console.log(total);
-</script>
+<iframe height="600px" width="100%" src="https://repl.it/@mdarfler/Iterative-Factorial?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<br>
+But there is another way to think about this problem using recursive function. A recursive function definition has one or more base cases, meaning input(s) for which the function produces a result without recurring, and one or more recursive cases, meaning input(s) for which the program **calls itself** For example, the factorial function can be defined recursively by the equations
+- 0! = 1 and,
+- for all n > 0, n! = n(n − 1)!.
+
+Neither equation by itself constitutes a complete definition; the first is the base case, and the second is the recursive case. Because the base case breaks the chain of recursion, it is sometimes also called the "terminating case".
+
+In code this might look like this:
+
+<iframe height="600px" width="100%" src="https://repl.it/@mdarfler/UnawareGiddyRevisioncontrol?lite=true" scrolling="no" frameborder="no" allowtransparency="true" allowfullscreen="true" sandbox="allow-forms allow-pointer-lock allow-popups allow-same-origin allow-scripts allow-modals"></iframe>
+<br>
+**WHAT IS GOING ON!** The function just called itself! This is a recursive definition.
+
+### Recursion in p5.js

@@ -161,6 +161,40 @@ function bounce(){
 }
 </script>
 
+## Arguments
+However, functions need not be one trick ponies. Like many of the drawing functions in p5.js we can modify how the function runs by providing inputs. e.g. when we are drawing and ellipse we get to tell the computer where and how big to draw the ellipse.
+
+When defining a function, we have the opportunity to specify that we want to supply some inputs for the function to use. say we want to make a function that adds two numbers together. While this is a pretty trivial example it might help illustrate the point.
+
+```
+function sum(a, b){
+  return a + b;
+}
+```
+What's more, the inputs need not be simple numerical values. Functions can even take entire objects as inputs
+
+<script type="text/p5" data-autoplay data-width="300" data-preview-width="260" data-height="400">
+let circ = {
+  x:100,
+  y:50,
+  d:75,
+  fill:0,
+  stroke:255
+}
+
+function setup(){
+	createCanvas(200,200);
+	background(200);
+  drawCircle(circ);
+}
+
+function drawCircle(circ){
+  fill(circ.fill);
+  stroke(circ.stroke);
+  ellipse(circ.x, circ.y, circ.d)
+}
+</script>
+
 ## [Comprehension Check](https://docs.google.com/forms/d/e/1FAIpQLSeVSVSSaEC8t8uOAZd1DXclKagnZuxa2OOx4P6tcStO7e3hLg/viewform?usp=sf_link)
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVSVSSaEC8t8uOAZd1DXclKagnZuxa2OOx4P6tcStO7e3hLg/viewform?embedded=true" width="640" height="2571" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
