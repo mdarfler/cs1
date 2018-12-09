@@ -165,3 +165,4 @@ function bounce(){
 <iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeVSVSSaEC8t8uOAZd1DXclKagnZuxa2OOx4P6tcStO7e3hLg/viewform?embedded=true" width="640" height="2571" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
 
 ## Assignment
+Refactor your clock code from 04-04 using function.
