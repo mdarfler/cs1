@@ -37,3 +37,72 @@ In code this might look like this:
 **WHAT IS GOING ON!** The function just called itself! This is a recursive definition.
 
 ### Recursion in p5.js
+
+Say we wanted to draw a series of concentric circles on the screen like this:
+<iframe width="100%" height="300px" frameborder="0px" src="https://editor.p5js.org/mdarfler/embed/SkcQZfikV"></iframe>
+
+It would be easy to make this happen with a simple for loop:
+```
+for(i = height; i > 2; i *= 0.9){
+  ellipse(width/2, height/2, i);
+}
+```
+But what if we wanted to write this another way? The trick here is to see that the solution to the whole problem depends on solving one smaller problem and relating it to the whole, namely how to draw one circle that is dependent on the previous circle.
+
+To begin, let's make a very boring function that draws a circle at a given _x. y, and d_.
+```
+function circle(x, y, d){
+  ellipse(x, y, d);
+}
+
+circle(width/2, height/2, 1)
+```
+This will give us a circle of diameter 1 in the center of the screen. Boring, if not completely superfluous. But wait, there's more. How, then, to draw the next circle which shares the same _x and y_ but with a slightly bigger diameter? We already have a function that does that, namely `circle()` Could we just just use the function again?
+```
+function circle(x, y, d){
+  ellipse(x, y, d);
+  circle(x, y, d * 1.1)
+}
+
+circle(width/2, height/2, 1);
+```
+**DON'T RUN THIS CODE!** Remember that we need a recursive case and a base case. What we have here is only a recursive case. This code will never stop running. It just keeps on calling itself over and over again in an **infinite loop**. We need to add in a base case, or some way for the function to stop running. In our case, we want the code to stop running once the circle the we are drawing is bigger than the canvas that we're drawing on.
+
+```
+function concentricCircles(x, y, d){
+  ellipse(x, y, d);
+  if(d < width){
+    ellipse(x, y, d * 1.1)
+  }
+}
+
+concentricCircles(width/2, height/2, 1)
+```
+### Putting it together
+Let's put this all together and see what happens. We'll start by defining our `setup()` function to make a canvas and call the function `concentricCircles()` with some initial conditions. As noted above, `concentricCircles()` is a recursive function that draws every growing concentric circles.
+
+<script type="text/p5" data-autoplay data-width="300" data-preview-width="260" data-height="400">
+function setup() {
+	createCanvas(windowWidth, windowHeight);
+	background(0);
+	concentricCircles(width / 2, height / 2, 1)
+}
+
+function concentricCircles(x, y, d) {
+	noFill();
+	stroke(255);
+	ellipse(x, y, d);
+	if (d < height) {
+		concentricCircles(x, y, d * 1.1)
+	}
+}
+</script>
+<br>
+Nifty, eh?
+
+## Going Further
+So this is certainly cool, but how is this much different than just writing a loop to do this? The case of concentric circles is simple, but we can go a lot further. What if we started with one big circle in the center of the screen and then we drew four circles around the circle at the four cardinal directions that were 80% the size of the original?
+
+<iframe width="100%" height="400px" frameborder="0px" src="https://editor.p5js.org/mdarfler/embed/BJwkFSoJ4"></iframe>
+
+Now what if we wanted to use each of those 4 new circles as the start of 4 new circles. 
