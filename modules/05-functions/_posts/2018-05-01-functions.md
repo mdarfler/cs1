@@ -161,6 +161,10 @@ function bounce(){
 }
 </script>
 
+## Video explanation
+<iframe width="600px" height="400px" src="https://www.youtube.com/embed/wRHAitGzBrg" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+
 ## Arguments
 However, functions need not be one trick ponies. Like many of the drawing functions in p5.js we can modify how the function runs by providing inputs. e.g. when we are drawing and ellipse we get to tell the computer where and how big to draw the ellipse.
 
