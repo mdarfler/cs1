@@ -35,3 +35,7 @@ As ARPANET grew, so did the complexity of the network and with it the need for m
 
 ## Video explanation
 <iframe width="560" height="315" src="https://www.youtube.com/embed/Dxcc6ycZ73M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+
+## Comprehension Check
+
+<iframe src="https://docs.google.com/forms/d/e/1FAIpQLSeacRgv-jkzH_cLVzieYd39hIoDw5gKQCVg8p5HF_EOcoC08g/viewform?embedded=true" width="640" height="1635" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
