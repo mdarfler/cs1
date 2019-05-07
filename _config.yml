@@ -1,5 +1,5 @@
 # basic configuration
-baseurl: /cs1-2018
+baseurl: /cs1
 markdown: kramdown
 permalink: /:categories/:title/
 
