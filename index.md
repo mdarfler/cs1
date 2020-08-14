@@ -13,7 +13,7 @@ The main intent for this website is to provide a set of learning modules that wi
 
 ## About the teacher
 
-|![]({{site.baseurl}}/img/mdarfler_small.jpg)|Here is some long and lengthy information about me and what I do, and why I like computers and programming, etc. ect. blah blah blah |
+|![]({{site.baseurl}}/img/mdarfler_small.jpg)|Mr. Darfler is an engineer, designer and maker. Though not a computer programmer by profession, Mr. Darfler use programming everyday to organize his work, communicate ideas, solve problems, and understand how the world works.
 
 
 ## Syllabus
