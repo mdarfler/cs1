@@ -22,6 +22,3 @@ In particular, this class will focus on a discipline of coding called **creative
 -https://github.com/terkelg/awesome-creative-coding
 
 <iframe width="560" height="315" src="https://www.youtube.com/embed/68JUaszsvmU?rel=0" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
-
-## Assignment
-<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScWu5WVHFWR648AqlbUNfj3VW-zhqVcpf9EPuUziu3bPdKWdg/viewform?embedded=true" width="560" height="1200" frameborder="0" marginheight="0" marginwidth="0">Loading...</iframe>
