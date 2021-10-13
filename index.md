@@ -14,3 +14,7 @@ The main intent for this website is to provide a set of learning modules that wi
 ## About the teacher
 
 |![]({{site.baseurl}}/img/mdarfler_small.jpg)|Mr. Darfler is an engineer, designer and maker. Though not a computer programmer by profession, Mr. Darfler use programming everyday to organize his work, communicate ideas, solve problems, and understand how the world works.
+
+
+## Syllabus
+<iframe width="760" frameborder="0" height="1200" src="https://docs.google.com/document/d/e/2PACX-1vTnNiI85SxwytLLwded3NG1CxhXm_GtoL0CUkPuUDFbeicH7Q7DRcTFUxCxuJUDv7-F05xvGqlQKJgT/pub?embedded=true"></iframe>
